@@ -6,6 +6,10 @@ Ensure all changes function properly in Google Chrome and Firefox at a minimum b
 
 Design will be created using Bootstrap framework; any back-end that exists will use (probably) PHP or Node.js if we're feeling adventurous. Feel free to add any stylist flourishes you see fit, but make sure they don't break anything existing. That would make us unhappy.
 
+## Github Basics
+
+You should learn the basics of pulling, cloning, and committing to Github. If you want to learn in the command-line, check out [this](https://www.youtube.com/watch?v=E8TXME3bzNs). Don't worry about creating repositories and such; mainly the pulling and committing are what we care about. If you want to work through a GUI, like I do, I'd recommend a client such as [this](https://desktop.github.com/). If you're running an incompatible operating system, do some googling, since I'm sure a client exists somewhere. [This](https://www.youtube.com/watch?v=E8TXME3bzNs) video also explains some about Github with a GUI. 
+
 ## Design
 
 There are several pages that need to be made. If you see a page is not yet created, feel free to make it in whatever style you choose. 
