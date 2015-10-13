@@ -1,4 +1,4 @@
-# Building a Website for UHS Devopment Club
+# Building a Website for UHS Development Club
 
 Construct a website to serve as a platform to post, upload, and try out ideas.
 
