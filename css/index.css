@@ -1,18 +1,56 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:200, 300, 400, 500, 600, 700);
-
 h1{
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 50px;
-	font-weight: 300;
+	font-weight: 200;
 	color: white;
+}
+
+h1 small{
+	font-weight:200;
+}
+
+.navbar .nav > li > a {
+   	 font-family: 'Lato';
+    	font-weight:100;
+   	 color:  white;
+   	 font-size:20px;
+}
+.navbar .nav > li > a:hover {
+	background-color:black;
+    	color: #0099cc
+}
+
+.navbar-custom
+{
+	background-color:black;
 }
 
 body{
 	font-family: "Lato";
-	background-image: url("images/background.png");
 	background-color: black;
 }
 
 .top-space{
-	margin-top:170px;
+	margin-top:150px;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-primary.outline {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #0099cc;
+    border-color: #0099cc;
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
 }
