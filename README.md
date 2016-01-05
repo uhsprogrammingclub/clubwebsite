@@ -26,15 +26,15 @@ Feel free to add more items to this list as you see fit.
 > Presidents of Software Development Club 
 
 ------------------------------
-##Some notes on this branch
+##Some Notes on This Branch
+- To get the structure for the MySQL database go to sql_import.sql found in the sql_imports folder.
 - Most pages are displayed with the function “render” in includes/functions.php. Pages in the public folder call render and pass a template (which must exist in the template folder) to be rendered. 
-- To get the structure for the MySQL database go to sql_import.sql found in the sql_imports folder
 
 ##Credits
-- Most of the code in the includes folder comes from Harvard's Computer Science 50 - Problem Set 7.
-- I used [my own website](http://lernerone.com), as the foundation of this website when I started. I built lernerone.com right before I started on this website.
-- Some CSS was taken directly from sfuhs.org. See the CSS from sfuhs.org in the custom_css.css file in public/css.
-- I used [this navbar style generator](http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0) to stylize the navbar. See the code in the custom_css.css file in public/css.
+- Most of the code in the includes folder comes from Harvard's Computer Science 50 - [Problem Set 7](http://cdn.cs50.net/2015/x/psets/7/pset7/pset7.html).
+- I used [my own website](http://lernerone.com) as the foundation of this website when I started. I built my site right before I started on this website.
+- Some CSS was taken directly from [sfuhs.org](http://www.sfuhs.org). See the CSS from sfuhs.org in the custom_css.css file in public/css.
+- I used this [navbar style generator](http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0) to stylize the navbar. See the code in the custom_css.css file in public/css.
 
 > Joseph Lerner
 ------------------------------
