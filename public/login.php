@@ -44,14 +44,21 @@
                     // redirect to index.php
                     redirect("/public/index.php");
                 }
+                // user is found but password fails
                 else
                 {
                     apologize("Invalid username and/or password.", "Invalid Username and/or Password.");
                 }
             }
+            // user is not found
+            else
+            {
+                apologize("Invalid username and/or password.", "Invalid Username and/or Password.");
+            }
                 
         // else apologize
         }
+        
         
         
     }
