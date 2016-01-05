@@ -47,7 +47,7 @@
                     </small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="<?php print "http://" . $_SERVER['HTTP_HOST'] . "/" ?>public/index.php">Home</a></li>
+                    <li><a href="../public/index.php">Home</a></li>
                 <?php
                  if (isset($firstBreadCrumbDisplayName) && isset($firstBreadCrumbFileName))
                     {
