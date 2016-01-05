@@ -51,5 +51,13 @@
             redirect("index.php");
         }
     }
+    //logged in users cannot access the pages in the array shown below
+    else if (in_array($_SERVER["PHP_SELF"], array("/public/register.php", "/public/login.php")))
+    {
+        if (!empty($_SESSION["id"]))
+        {
+            redirect("index.php");
+        }
+    }
     
 ?>
