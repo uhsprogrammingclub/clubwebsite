@@ -1,7 +1,7 @@
 <?php
 
     require("../includes/config.php");
-    $rows = query("SELECT * FROM users WHERE username = ?", $_SESSION["username"]);
+    $rows = query("SELECT * FROM users WHERE id = ?", $_SESSION["id"]);
 
     	
     	if (count($rows) == 1)

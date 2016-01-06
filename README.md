@@ -28,7 +28,7 @@ Feel free to add more items to this list as you see fit.
 ------------------------------
 ##Some Notes on This Branch
 - To get the structure for the MySQL database go to sql_import.sql found in the sql_imports folder.
-- Most pages are displayed with the function “render” in includes/functions.php. Pages in the public folder call render and pass a template (which must exist in the template folder) to be rendered. 
+- Most pages are displayed with the function “render” in includes/functions.php. Pages in the public folder call render and pass a template (which must exist in the templates folder) to be rendered. 
 
 ##Credits
 - Most of the code in the includes folder comes from Harvard's Computer Science 50 - [Problem Set 7](http://cdn.cs50.net/2015/x/psets/7/pset7/pset7.html).
