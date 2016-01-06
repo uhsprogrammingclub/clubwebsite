@@ -10,15 +10,15 @@
 
             if($results[0]["permissionsLevel"] == 3)
             { 
-                print("<li>" . $row["message"] . "<br><em> Posted by " . $row["username"] . " <i class=\"fa fa-star\" style = \"color: grey\"></i> on " .  $row["date"] . ".</em></li>");
+                print("<li>" . htmlspecialchars($row["message"]) . "<br><em> Posted by " . htmlspecialchars($row["username"]) . " <i class=\"fa fa-star\" style = \"color: grey\"></i> on " .  $row["date"] . ".</em></li>");
             }
             else if($results[0]["permissionsLevel"] == 2)
             {
-                print("<li>" . $row["message"] . "<br><em> Posted by " . $row["username"] . " <i class=\"fa fa-star-half-empty\" style = \"color: grey\"></i> on " .  $row["date"] . ".</em></li>");
+                print("<li>" . htmlspecialchars($row["message"]) . "<br><em> Posted by " . htmlspecialchars($row["username"]) . " <i class=\"fa fa-star-half-empty\" style = \"color: grey\"></i> on " .  $row["date"] . ".</em></li>");
             }
             else
             {
-              print("<li>" . $row["message"] . "<br><em> Posted by " . $row["username"] . " <i class=\"fa fa-star-o\" style = \"color: grey\"></i> on " .  $row["date"] . ".</em></li>");
+              print("<li>" . htmlspecialchars($row["message"]) . "<br><em> Posted by " . htmlspecialchars($row["username"]) . " <i class=\"fa fa-star-o\" style = \"color: grey\"></i> on " .  $row["date"] . ".</em></li>");
             }
 
 

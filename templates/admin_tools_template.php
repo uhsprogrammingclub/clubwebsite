@@ -48,7 +48,7 @@
 
         print  "<tr>
                 <td>" . $i . "</td>
-                <td>" . $result["username"] . "</td>        
+                <td>" . htmlspecialchars($result["username"]) . "</td>        
                 <td>" . $result["email"] . "</td>
                 <td>" . $result["dateJoined"] . "</td>
                 <td>" .  (($result["permissionsLevel"] == 3) ? "<i class=\"fa fa-check\"></i>" : " ") . "</td>

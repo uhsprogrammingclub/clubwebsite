@@ -44,7 +44,7 @@
                             }
                             else
                             {
-                                $user = $_SESSION["username"];
+                                $user = htmlspecialchars($_SESSION["username"]);
                                 print  ("Hello, <em>$user</em>");
                             }
 

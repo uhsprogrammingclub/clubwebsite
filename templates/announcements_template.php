@@ -7,21 +7,21 @@
         foreach ($rows as $row)
         {
         
-        $currentArticleForFirstIteration = "";
+        $firstArticle = "";
          if($i == 0)
          {
-            $currentArticleForFirstIteration = " current";
+            $firstArticle = " current";
          }
          $i += 1;
          print 
           "
-          <div class=\"article" . $currentArticleForFirstIteration . "\">
+          <div class=\"article" . $firstArticle . "\">
         <div class=\"item row\">
           <div class=\"col-xs-3\">
-            <p class=\"source\">" . $row["type"] . "</p>
+            <p class=\"source\">" . htmlspecialchars($row["type"]) . "</p>
           </div>
           <div class=\"col-xs-6\">
-            <p class=\"title\">" . $row["title"] . " - posted by <em>" . $row["poster"] .  "</em></p>
+            <p class=\"title\">" . htmlspecialchars($row["title"]) . " - posted by <em>" . htmlspecialchars($row["poster"]) .  "</em></p>
           </div>
           <div class=\"col-xs-3\">
             <p class=\"pubdate\">" . $row["date"] . "</p>
@@ -30,8 +30,8 @@
         <div class=\"description row\">
           <div class=\"col-xs-3\">&nbsp;</div>
           <div class=\"col-xs-6\">
-            <h1>" . $row["title"] . "</h1>
-            <p>" . $row["body"] . "</p>
+            <h1>" . htmlspecialchars($row["title"]) . "</h1>
+            <p>" . htmlspecialchars($row["body"]) . "</p>
           </div>
           <div class=\"col-xs-3\">&nbsp;</div>
         </div>

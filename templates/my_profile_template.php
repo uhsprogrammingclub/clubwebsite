@@ -1,6 +1,6 @@
 <div class = "col-md-4">
 	<h4><u>Personal Information</u></h4>
-	<h5>Username: <?php print $username; ?></h5>
+	<h5>Username: <?php print htmlspecialchars($username); ?></h5>
 	<h5>Email: <?php print $email; ?></h5>
 	<h5>Date &amp; time joined: <?php print $dateJoined; ?></h5>
 </div>
