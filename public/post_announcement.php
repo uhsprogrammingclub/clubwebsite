@@ -37,7 +37,7 @@
         { 
                 $result = query("INSERT INTO announcements (type, title, body, poster) VALUES (?, ?, ?, ?)", $_POST["type"], $_POST["title"], $_POST["body"], $_SESSION["username"]);
 
-                if($result == false)
+                if($result !== false)
                 {	
                 	congratulate("Successfully posted announcement.", "Post Successful");
                 }

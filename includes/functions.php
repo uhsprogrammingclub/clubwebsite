@@ -154,7 +154,6 @@
         if ($statement === false)
         {
             //trigger (big, orange) error
-           //trigger_error($handle->errorInfo()[2], E_USER_ERROR); - THIS LINE IS GIVING ME PROBLEMS AND I'M NOT SURE HOW TO FIX
             exit;
         }
 

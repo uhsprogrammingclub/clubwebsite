@@ -40,7 +40,7 @@
     <?php 
 
      $i = 0;
-     $results = query("SELECT * FROM users WHERE permissionsLevel > 1");
+     $results = query("SELECT * FROM users WHERE permissionsLevel > 1 ORDER BY username");
 
      foreach ($results as $result) 
      {
