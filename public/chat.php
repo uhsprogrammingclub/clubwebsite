@@ -6,7 +6,7 @@
 	- title: sets title of browser page, page heading, and of active breadcrumb
 	- subtitle (optional): if turned on, displays a subtitle next to the page heading.
 	- firstBreadCrumbDisplayName (optional): if turned on with firstBreadCrumbFileName, displays a bread crumb with this name
-    - firstBreadCrumbFileName (optional): if turned on with firstBreadCrumbDisplayName, displays a bread crumb linking to http://lernerone.com/public/$firstBreadCrumbFileName
+    - firstBreadCrumbFileName (optional): if turned on with firstBreadCrumbDisplayName, displays a bread crumb linking to WEBSITE-BASENAME/public/$firstBreadCrumbFileName
     - secondBreadCrumbDisplayName and secondBreadCrumbFileName are also possible. They have not been tested yet though.
        ---                       		    --- */
 
