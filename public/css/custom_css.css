@@ -347,8 +347,10 @@ img
 }
 /*  ./discussion.php */
 
-
-/* my_profile.php */
+.club-member-activation-button
+{
+  margin-top: 4%;
+}
 table, th, td 
 {
     border: 1px solid #404040;

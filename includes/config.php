@@ -9,7 +9,12 @@
      */
 
     //display errors, warnings, and notices
-    
+       
+
+    //enable sessions
+    session_start();
+
+
     ini_set("display_errors", true);
     error_reporting(E_ALL);
 
@@ -32,10 +37,7 @@
         }
         
     //requirements
-    
-
-    //enable sessions
-   session_start();
+ 
 
     //require authentication for all pages in the array shown below
     if (in_array($_SERVER["PHP_SELF"], array("/public/my_profile.php", "/public/logout.php", "/public/admin_tools.php")))

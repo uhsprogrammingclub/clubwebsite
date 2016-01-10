@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="chess_robot.php">
-                    <img class="img-responsive img-hover" src="img/chess_robot.jpg" alt="Image of work on the chess robot">
+                    <img class="img-responsive img-hover" src="img/chess_robot .jpg" alt="Image of work on the chess robot">
                 </a>
             </div>
             <div class="col-md-5">

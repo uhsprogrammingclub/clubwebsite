@@ -20,7 +20,6 @@
         <div class="form-group col-md-12">
           <textarea class="form-control status-box" name = "body" rows="3" placeholder="Body"></textarea>
         </div>
-        <!-- ADD DROPDOWN FOR TYPE AND ADD BOX FOR MESSAGE -->
         <div class="form-group col-md-12">
             <button type="submit" class="btn btn-default">Post Announcement</button>
         </div>
