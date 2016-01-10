@@ -26,7 +26,7 @@
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
 
-  <form action="activate_account.php" method="post">
+  <form action="my_profile.php" method="post">
     <fieldset>
         <div class="form-group col-md-12">
           <textarea class="form-control status-box" name = "activation_code" rows="1" placeholder="Club member activation code"></textarea>

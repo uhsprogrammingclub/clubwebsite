@@ -1,6 +1,6 @@
         <div class="col-md-10">
                 <h3 class = "small-heading">Post Announcement</h3>
-        <form action="post_announcement.php" method="post">
+        <form action="admin_tools.php" method="post">
     <fieldset>
         <div class="form-group col-md-9">
             <input autofocus class="form-control" name="title" placeholder="Title" type="text"/>
