@@ -6,7 +6,7 @@
                     </div>
                     <div class="panel-body">
                         <ul>
-                          <li><strong>Weekday</strong>: Wednesday, although the club will occasionally reschedule meetings.</li>
+                          <li><strong>Weekday</strong>: Thursday, although the club will occasionally reschedule meetings.</li>
                           <li><strong>Time</strong>: During lunch.</li>
                           <li><strong>Location</strong>: L-104 </li>
                         </ul>
